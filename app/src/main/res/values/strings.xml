@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ArcGIS test app</string>
+
+
+    <string name="basemap_service">http://www.arcgis.com/sharing/rest/content/items/dcbbba0edf094eaa81af19298b9c6247/resources/styles/root.json</string>
+    <string name="map_routing_service">http://sampleserver6.arcgisonline.com/arcgis/rest/services/NetworkAnalysis/SanDiego/NAServer/Route</string>
+    <string name="local_routing_service">http://192.168.1.53:6080/arcgis/rest/services/sanfrancisco_routing/NAServer/Route</string>
+    <string name="scene_routing_service">http://3dcampus.arcgis.com/arcgis/rest/services/Routing/CampusNetworkOOA/NAServer/Route</string>
+
+    <string name="find_route">Рассчитать маршрут</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

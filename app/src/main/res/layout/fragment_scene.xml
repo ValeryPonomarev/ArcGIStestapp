@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.easysales.arcgistestapp.ui.SceneFragment">
+
+    <com.esri.arcgisruntime.mapping.view.SceneView
+        android:id="@+id/sceneView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/floorAllBtn"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="Все"/>
+
+        <Button
+            android:id="@+id/floorOneBtn"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="1"/>
+
+        <Button
+            android:id="@+id/floorTwoBtn"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:text="2"/>
+
+        <Button
+            android:id="@+id/floorThreeBtn"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:text="3"/>
+
+    </LinearLayout>
+</RelativeLayout>
